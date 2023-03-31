@@ -6,7 +6,8 @@ export default function Navbar() {
 			<a href="/">
 				<img
 					className={styles.alchemy_logo}
-					src="/alchemy_logo.svg"
+					src="/brand-log.png"
+					height={45}
 				></img>
 			</a>
 			<ConnectButton></ConnectButton>
