@@ -1,5 +1,5 @@
 # Lem Explorer
 
-A lightweight wallet explorer
+### A lightweight wallet explorer
 
-View NFTs in a wallet###
+View NFTs in a wallet
