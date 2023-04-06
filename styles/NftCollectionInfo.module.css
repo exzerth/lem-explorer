@@ -2,7 +2,7 @@
   width: 814px;
   padding: 2em;
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 0;
 }
 
 .header {
@@ -93,7 +93,7 @@
     width: 700px;
   }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 770px) {
   .collection_container {
     width: 500px;
   }
@@ -101,6 +101,8 @@
 @media screen and (max-width: 560px) {
   .collection_container {
     width: 350px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .header {
     display: block;

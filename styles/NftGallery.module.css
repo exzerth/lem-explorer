@@ -240,21 +240,51 @@
   color: #4e4e4e;
 }
 
-@media screen and (max-width: 560px) {
-  .nfts_display {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-@media screen and (min-width: 561px) and (max-width: 750px) {
-  .nfts_display {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (min-width: 751px) and (max-width: 992px) {
+@media screen and (min-width: 751px) and (max-width: 1025px) {
   .nfts_display {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 561px) and (max-width: 778px) {
+  .nfts_display {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.8rem;
+  }
+
+  .input_button_container input {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .nft_gallery_page {
+    row-gap: 1.5rem;
+  }
+
+  .card_container {
+    max-width: 320px;
+    padding: 10px;
+  }
+
+  .inputs_container {
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+  }
+
+  .nfts_display {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 2rem;
+  }
+
+  .input_button_container input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .fetch_selector_container {
+    padding: 0 1.8rem;
   }
 }
 

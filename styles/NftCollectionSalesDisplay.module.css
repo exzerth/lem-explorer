@@ -1,24 +1,8 @@
 .tx_history_container {
   width: 800px;
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 0;
   padding: 1em;
-}
-
-@media screen and (max-width: 955px) {
-  .tx_history_container {
-    width: 700px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .tx_history_container {
-    width: 500px;
-  }
-}
-@media screen and (max-width: 560px) {
-  .tx_history_container {
-    width: 350px;
-  }
 }
 
 .table_container {
@@ -36,6 +20,7 @@
 }
 
 .table {
+  position: relative;
   display: flex;
   gap: 16px;
   min-width: 360px;
@@ -142,6 +127,28 @@
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 6em;
+  bottom: 0;
   text-align: center;
+}
+
+@media screen and (max-width: 955px) {
+  .tx_history_container {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .tx_history_container {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .tx_history_container {
+    width: 350px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .table {
+    min-width: unset;
+  }
 }

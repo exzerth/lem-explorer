@@ -4,10 +4,36 @@
   width: 100%;
   padding: 2rem 8rem 0.8rem 6rem;
   gap: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 
 .alchemy_logo {
   width: 8rem;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1025px) {
+  .navbar {
+    padding: 2rem 4rem 0.8rem 2rem;
+  }
+}
+
+@media screen and (max-width: 778px) {
+  .navbar {
+    padding: 2rem 2rem 0.8rem 2rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .navbar {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .navbar {
+    padding: 2rem 1rem 0.8rem 1rem;
+    margin-bottom: 0;
+    gap: 0;
+  }
 }
